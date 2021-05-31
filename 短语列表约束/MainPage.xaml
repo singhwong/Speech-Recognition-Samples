@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="短语列表约束.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:短语列表约束"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+        <TextBlock Text="请说出你最喜欢的体育运动："/>
+        <Button Content="开始识别" Width="200" Tapped="Button_Tapped"/>
+        <ListBox x:Name="listBox">
+            <x:String>足球</x:String>
+            <x:String>排球</x:String>
+            <x:String>跑步</x:String>
+            <x:String>羽毛球</x:String>
+            <x:String>橄榄球</x:String>
+            <x:String>结束</x:String>
+        </ListBox>
+    </StackPanel>
+</Page>

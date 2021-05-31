@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<grammar xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0" version="1.0" xml:lang="zh-cn" root="color">
+  <rule id="color">
+    <item repeat="0-1">把</item>
+    <item>颜色</item>
+    <one-of>
+      <item>改为</item>
+      <item>设置为</item>
+    </one-of>
+    <one-of>
+      <item>红色</item>
+      <item>白色</item>
+      <item>蓝色</item>
+    </one-of>
+  </rule>
+</grammar>
